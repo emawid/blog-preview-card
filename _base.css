@@ -1,0 +1,38 @@
+:root {
+  /*Colors*/
+  --yellow: #f4d04e;
+  --gray-950: #111111;
+  --gray-500: #6b6b6b;
+  --white: #ffffff;
+
+  --line-height: 1.5;
+
+  /* General font */
+  --text-preset3-bold: 0.875rem;
+
+  /* Fonts mobile */
+  --text-preset1: 1.25rem;
+  --text-preset2: 0.875rem;
+  --text-preset3: 0.75rem;
+
+  /* Fonts desktop */
+  --text-preset1-desktop: 1.5rem;
+  --text-preset2-desktop: 1rem;
+  --text-preset3-desktop: 0.875rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Figtree, system-ui;
+  margin: 0;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
